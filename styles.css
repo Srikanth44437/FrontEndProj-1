@@ -1,0 +1,139 @@
+nav {
+  position: sticky;
+  justify-content: space-between;
+  display: flex;
+  color: white;
+  background-color: black;
+}
+nav span {
+  cursor: pointer;
+  padding: 0px 15px;
+  padding-bottom: 10px;
+  color: lightgrey;
+}
+
+nav.icon {
+  padding: 0px 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#sec1 {
+  background-image: url("https://images.unsplash.com/photo-1593504049359-74330189a345?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGl6emF8ZW58MHx8MHx8fDA%3D");
+  background-image: center;
+  background-position: cover;
+  padding-left: 20px;
+  line-height: 25px;
+}
+#head {
+  width: 902px;
+  height: 215px;
+  padding-top: 50px;
+  font-family: Quattrocento;
+  font-size: 101px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  color: #ffffff;
+}
+.bar {
+  width: 586px;
+  height: 13px;
+  background: #f24c4c;
+  display: relative;
+}
+#para {
+  width: 599px;
+  height: 325px;
+  top: 613px;
+  left: 116px;
+  font-family: Ruda;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.09em;
+  text-align: left;
+  color: white;
+  padding-left: 20px;
+}
+#aboutus{
+  padding-top: 40px;
+  color: white;
+  background-color: black;
+}
+#about{
+  text-align: center;
+  font-family: Quattrocento;
+  font-size: 60px;
+  letter-spacing: 0em;
+}
+#detail {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+#detail > p {
+  width: 677px;
+  height: 420px;
+  top: 1421px;
+  left: 193px;
+  font-family: Ruda;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.09em;
+  text-align: left;
+}
+#detail > img {
+  width: 631px;
+  height: 506px;
+  top: 1368px;
+  left: 949px;
+  border-radius: 10px;
+}
+#menu{
+    padding: 40px;
+    background-color: black;
+    color:white;
+
+}
+#mh{
+    text-align: center;
+}
+#mh,#mp{
+    padding-top:20px;
+    color:white;
+}
+#m1,#m2{
+    display:flex;
+    justify-content:space-around;
+}
+#mi1,#mi2,#mi3,#mi4,#mi5,#mi6{
+    padding:40px;
+}
+b{
+    color:orange;
+}
+
+#H{
+    text-align:center;
+}
+#C{
+    padding: 40px;
+    background-color: black;
+    color:white;
+}
+#I{
+    width: 1334px;
+    height: 638px;
+    top: 3407px;
+    left: 198px;
+    border-radius: 10px;
+    
+}
+#gallary{
+    background-color: black;
+    color:white;
+
+}
+#g1{
+    text-align:center;
+
+}
