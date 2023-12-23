@@ -17,12 +17,18 @@ nav.icon {
   font-size: 20px;
   cursor: pointer;
 }
+
+section{
+  padding:100px;
+}
 #sec1 {
+  height:100vh;
   background-image: url("https://images.unsplash.com/photo-1593504049359-74330189a345?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGl6emF8ZW58MHx8MHx8fDA%3D");
   background-image: center;
   background-position: cover;
-  padding-left: 20px;
-  line-height: 25px;
+  padding:20px;
+  color:white;
+  text-align: center;
 }
 #head {
   width: 902px;
@@ -38,7 +44,8 @@ nav.icon {
   width: 586px;
   height: 13px;
   background: #f24c4c;
-  display: relative;
+  display: flex;
+  justify-content: center;
 }
 #para {
   width: 599px;
@@ -94,6 +101,10 @@ nav.icon {
     color:white;
 
 }
+#m1,#m2,#m3{
+  display: flex;
+  flex-direction: row;
+}
 #mh{
     text-align: center;
 }
@@ -101,13 +112,17 @@ nav.icon {
     padding-top:20px;
     color:white;
 }
-#m1,#m2{
-    display:flex;
-    justify-content:space-around;
-}
 #mi1,#mi2,#mi3,#mi4,#mi5,#mi6{
-    padding:40px;
+  display: flex;
+  padding:40px;
+
 }
+
+#menu img{
+  width:278px;
+}
+
+
 b{
     color:orange;
 }
@@ -120,14 +135,7 @@ b{
     background-color: black;
     color:white;
 }
-#I{
-    width: 1334px;
-    height: 638px;
-    top: 3407px;
-    left: 198px;
-    border-radius: 10px;
-    
-}
+
 #gallary{
     background-color: black;
     color:white;
@@ -136,4 +144,21 @@ b{
 #g1{
     text-align:center;
 
+}
+#C img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1334px;
+  height: 638px;
+  border-radius: 10px;
+
+}
+#footer{
+  background-color: black;
+  color:white;
+}
+#locate{
+  display:flex;
+  justify-content: space-around;
 }
